@@ -1,0 +1,130 @@
+/* Login.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('bg.jpg'); /* Change 'house-background.jpg' to your actual image file */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-box {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Increased width */
+    max-width: 90%;
+    animation: fadeInUp 0.5s ease;
+  }
+  .login-box h1{
+    color: #007bff;
+    text-align: center;
+    font-size: xx-large;
+    justify-content: center;
+
+  }
+  
+  .form-group {
+    margin-top: 10px;
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  input[type='email'],
+  input[type='password'] {
+    width: calc(100% - 30px); /* Adjusted width to accommodate toggle button */
+    padding: 20px;
+    border: none;
+    border-bottom: 1px solid #797373; /* Add bottom border for input */
+    background-color: transparent;
+    outline: none;
+    font-size:17px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px; /* Increase border radius */
+    padding: 15px 20px; /* Adjusted padding */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 17px; /* Increase font size */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .forgot-password {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .forgot-password a:hover {
+    color: #0056b3;
+  }
+  
+  .password-input-container {
+    position: relative;
+  }
+  
+  .password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .password-toggle svg {
+    font-size: 20px;
+  }
+  
+  .login-options {
+    margin-top: 40px;
+    margin-top: 40px;
+    text-align: center; /* Center-align the login options */
+  }
+  
+  .login-options p {
+    margin-bottom: 20px;
+  }
+  
+  .social-logos img {
+    width: 30px;
+    height: 30px;
+    margin: 22px;
+    justify-content: center; /* Horizontally center the logos */
+  }
+
+  .sign_up{
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .sign_up a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 15px;
+  }
+
+  .sign_up a:hover{
+    color: #0056b3;
+  }
